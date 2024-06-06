@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        {% load static %}
+        <link rel="stylesheet" type="text/css" href="{% static 'project.css'%}?ver=1.7" />
+        <script src="https://kit.fontawesome.com/a75f266e95.js" crossorigin="anonymous"></script>
+        <style>
+            body {
+                margin: 0;
+                padding: 0;
+                background-image: url('https://p4.wallpaperbetter.com/wallpaper/186/119/589/8-bit-hello-world-minimalism-wallpaper-preview.jpg'); /* 이미지의 절대 경로를 여기에 입력하세요 */
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                /* 콘텐츠가 많을 경우를 대비하여 최소 높이 설정 */
+                min-height: 100%; /* 화면의 높이를 전체 차지하도록 설정합니다. */
+            }
+        </style>
+    </head>
+    <body>
+        <div class="box">
+            <div class="upward">
+                <h1>INFO</h1>
+                <a href="{% url 'project' %}" style="display: block">
+                    <h1>PROJECT</h1>
+                </a>
+                <h1>ABOUT ME</h1>
+                <h1>CONTACT</h1>
+            </div>
+            <div class="bottom">
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-solid fa-graduation-cap"></i>
+                <i class="fa-brands fa-github"></i>
+            </div>
+        </div>
+        <div class="A">
+            <h1>HTML</h1>
+        </div>
+        <div class="img1">
+            <img src="{% static 'NEXTHW1.png' %}" alt="image" style="width: 800px" />
+        </div>
+        <div class="B">
+            <h1>CLONE CODING</h1>
+        </div>
+        <div class="img2">
+            <img src="{% static 'NEXTHW2.png' %}" alt="image" style="height: 500px" />
+            <img src="{% static 'NEXTHW5.png' %}" alt="image" style="height: 500px" />
+        </div>
+        <div class="C">
+            <h1>PYTHON</h1>
+        </div>
+        <div class="img3">
+            <img src="{% static 'NEXTHW4.png' %}" alt="image" style="width: 800px" />
+        </div>
+        <div class="D">
+            <h1>DJANGO</h1>
+        </div>
+        <div class="video">
+            <video width="1000px" controls>
+                <source src="{% static 'NEXTHW6.mp4' %}" type="video/mp4" />
+            </video>
+        </div>
+    </body>
+</html>

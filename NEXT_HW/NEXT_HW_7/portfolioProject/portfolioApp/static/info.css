@@ -1,0 +1,42 @@
+.box {
+    position: fixed; /* 요소를 뷰포트에 고정 */
+    top: 0; /* 상단에서 0px 떨어진 위치 */
+    left: 0;
+    width: 230px;
+    height: 100%;
+    background-color: black;
+}
+.upward {
+    color: rgb(63, 203, 87);
+    position: absolute;
+    right: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 350px;
+}
+.bottom {
+    color: rgb(63, 203, 87);
+    font-size: 30px;
+    position: absolute;
+    bottom: 3%;
+    right: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 150px;
+}
+
+.a1,
+.b1 {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.b1 {
+    top: calc(25% + 5px); /* 약간의 간격을 유지하도록 설정 */
+    left: calc(50% + 5px);
+    color: rgba(0, 0, 0, 0.443); /* 약간의 간격을 유지하도록 설정 */
+}

@@ -1,0 +1,42 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE-egde" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" type="text/css" href="{% static 'new.css' %}" />
+        <title>new</title>
+    </head>
+    <body>
+        <div class="title">
+        <h1>할 일 생성하기</h1>
+    </div>
+        <div class="box">
+        <form action="" method="post">
+            {% csrf_token %}
+            <div class="b1">
+                <label for="title">할 일</label><br />
+                <input type="text" name="title" id="title" placeholder="당신의 할 일은 무엇인가요?" />
+            </div>
+            <div class="b2">
+                <label for="content">세부내용</label><br />
+                <textarea
+                    name="content"
+                    id="content"
+                    cols="30"
+                    rows="10"
+                    placeholder="구체적으로 어떤 일을 할 것인가요?"
+                ></textarea>
+            </div>
+            <div class="b3">
+                <label for="deadline">마감기한</label><br />
+                <input type="date" id="deadline" name="deadline" /><br />
+            </div>
+        </div>
+        <div class="b4">
+            <button type="submit">생성하기!</button>
+        </div>
+        </form>
+    </body>
+</html>

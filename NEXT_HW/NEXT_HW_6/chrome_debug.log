@@ -1,0 +1,39 @@
+[20960:20964:0425/230254.289:WARNING:chrome_main_delegate.cc(747)] This is Chrome version 124.0.6367.61 (not a warning)
+[20960:20964:0425/230254.366:INFO:chrome_browser_cloud_management_controller.cc(168)] Starting CBCM Controller Initialization
+[20960:20964:0425/230254.366:INFO:chrome_browser_cloud_management_controller.cc(196)] No machine level policy manager exists.
+[20960:20964:0425/230254.428:WARNING:browser_management_service.cc(128)] EnterpriseLogoUrl fetch failed with error code -1 and MIME type 
+[21316:21320:0425/230254.620:WARNING:runtime_features.cc(730)] AttributionReportingCrossAppWeb cannot be enabled in this configuration. Use --enable-features=ConversionMeasurement,AttributionReportingCrossAppWeb in addition.
+[21336:21340:0425/230254.622:WARNING:runtime_features.cc(730)] AttributionReportingCrossAppWeb cannot be enabled in this configuration. Use --enable-features=ConversionMeasurement,AttributionReportingCrossAppWeb in addition.
+[19964:15680:0425/230255.002:WARNING:runtime_features.cc(730)] AttributionReportingCrossAppWeb cannot be enabled in this configuration. Use --enable-features=ConversionMeasurement,AttributionReportingCrossAppWeb in addition.
+[18512:11980:0425/230255.049:WARNING:runtime_features.cc(730)] AttributionReportingCrossAppWeb cannot be enabled in this configuration. Use --enable-features=ConversionMeasurement,AttributionReportingCrossAppWeb in addition.
+[20960:20964:0425/230255.101:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Unrecognized feature: 'ch-ua-form-factor'.", source:  (0)
+[20960:20964:0425/230256.142:INFO:CONSOLE(5152)] "LegacyDataMixin will be applied to all legacy elements.
+Set `_legacyUndefinedCheck: true` on element class to enable.", source: https://www.youtube.com/s/desktop/70217e23/jsbin/desktop_polymer.vflset/desktop_polymer.js (5152)
+[20960:20964:0425/230256.783:INFO:CONSOLE(21)] "Third-party cookie will be blocked. Learn more in the Issues tab.", source: https://www.youtube.com/ (21)
+[20960:20964:0425/230258.178:INFO:CONSOLE(0)] "Third-party cookie will be blocked. Learn more in the Issues tab.", source: https://www.youtube.com/ (0)
+[20960:20964:0425/230258.178:INFO:CONSOLE(0)] "Third-party cookie will be blocked. Learn more in the Issues tab.", source: https://www.youtube.com/ (0)
+[20960:20964:0425/230258.867:WARNING:capture_device_ranking.h(255)] Can't initialize the value of media.audio_input.user_preference_ranking because media.default_audio_capture_device isn't registered or is empty
+[20960:20964:0425/230258.867:WARNING:capture_device_ranking.h(255)] Can't initialize the value of media.video_input.user_preference_ranking because media.default_video_capture_Device isn't registered or is empty
+[20960:20964:0425/230300.345:WARNING:capture_device_ranking.h(255)] Can't initialize the value of media.audio_input.user_preference_ranking because media.default_audio_capture_device isn't registered or is empty
+[20960:20964:0425/230300.345:WARNING:capture_device_ranking.h(255)] Can't initialize the value of media.video_input.user_preference_ranking because media.default_video_capture_Device isn't registered or is empty
+[20960:20964:0425/230300.780:INFO:CONSOLE(0)] "Third-party cookie will be blocked. Learn more in the Issues tab.", source: https://www.youtube.com/ (0)
+[20960:20964:0425/230300.781:INFO:CONSOLE(0)] "Third-party cookie will be blocked. Learn more in the Issues tab.", source: https://www.youtube.com/ (0)
+[20960:20964:0425/230302.469:INFO:CONSOLE(0)] "requestStorageAccessFor: Permission denied.", source: https://www.youtube.com/ (0)
+[20960:20964:0425/230302.470:INFO:CONSOLE(0)] "requestStorageAccessFor: Permission denied.", source: https://www.youtube.com/ (0)
+[20960:20964:0425/230302.470:INFO:CONSOLE(0)] "requestStorageAccessFor: Permission denied.", source: https://www.youtube.com/ (0)
+[20960:20964:0425/230305.135:WARNING:controller_impl.cc(1191)] Background download complete, client: 6, completion type: 0, file size:5160
+[20960:20964:0425/230305.442:INFO:CONSOLE(0)] "Third-party cookie will be blocked. Learn more in the Issues tab.", source: https://www.youtube.com/results?search_query=tabber (0)
+[20960:20964:0425/230305.555:WARNING:controller_impl.cc(1191)] Background download complete, client: 6, completion type: 0, file size:45148
+[20960:20964:0425/230305.761:WARNING:controller_impl.cc(1191)] Background download complete, client: 6, completion type: 0, file size:2200227
+[20960:20964:0425/230307.415:WARNING:controller_impl.cc(1191)] Background download complete, client: 6, completion type: 0, file size:2747170
+[20960:20964:0425/230308.315:WARNING:controller_impl.cc(1191)] Background download complete, client: 6, completion type: 0, file size:3844
+[20960:20964:0425/230308.610:WARNING:controller_impl.cc(1191)] Background download complete, client: 6, completion type: 0, file size:1463571
+[17864:5376:0425/230309.457:WARNING:runtime_features.cc(730)] AttributionReportingCrossAppWeb cannot be enabled in this configuration. Use --enable-features=ConversionMeasurement,AttributionReportingCrossAppWeb in addition.
+[20960:20964:0425/230310.308:INFO:CONSOLE(0)] "Third-party cookie will be blocked. Learn more in the Issues tab.", source: https://www.youtube.com/watch?v=w0sOLQXCGjE (0)
+[20960:20964:0425/230310.308:INFO:CONSOLE(0)] "Third-party cookie will be blocked. Learn more in the Issues tab.", source: https://www.youtube.com/watch?v=w0sOLQXCGjE (0)
+[21136:21372:0425/230310.588:WARNING:angle_platform_impl.cc(49)] HLSLCompiler.cpp:250 (compileToBinary): 
+C:\fakepath(151,3-70): warning X3557: loop only executes for 1 iteration(s), forcing loop to unroll
+
+[20960:20964:0425/230311.174:INFO:CONSOLE(0)] "Third-party cookie will be blocked. Learn more in the Issues tab.", source: https://www.youtube.com/watch?v=w0sOLQXCGjE (0)
+[20960:20964:0425/230314.374:INFO:CONSOLE(0)] "Third-party cookie will be blocked. Learn more in the Issues tab.", source: https://www.youtube.com/watch?v=w0sOLQXCGjE (0)
+[20960:20964:0425/230315.343:WARNING:pref_notifier_impl.cc(41)] Pref observer for media_router.cast_allow_all_ips found at shutdown.

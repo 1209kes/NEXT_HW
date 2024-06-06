@@ -1,0 +1,11 @@
+body {
+    color: salmon;
+    text-align: center;
+    background-color: rgba(250, 128, 114, 0.411);
+}
+ul {
+    text-align: center;
+}
+hr {
+    border: 2px dotted salmon;
+}

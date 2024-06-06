@@ -1,0 +1,72 @@
+body {
+    background-color: #49b1ed;
+}
+a:visited {
+    color: #f7e140;
+}
+mark {
+    color: #49b1ed;
+    background: #f7e140;
+}
+li {
+    color: rgba(255, 255, 255, 20);
+}
+img {
+    width: 100%;
+}
+.container {
+    width: 88%;
+    color: white;
+    /* background-color: aliceblue; */
+    margin: 0 auto;
+    border: 10px solid #f7e140;
+    padding: 40px;
+    border-radius: 20px;
+    margin: 60px;
+}
+#contentWrapper {
+    max-width: 430px;
+
+    margin: 0 auto;
+}
+p {
+    font-size: 20px;
+    font-weight: 700;
+}
+b {
+    color: #f7e140;
+}
+h3 {
+    text-align: center;
+}
+.noDot {
+    list-style: none;
+    padding-top: 300px;
+}
+.logo {
+    background: left / cover
+        url('https://img.freepik.com/premium-photo/beautiful-sky-clouds-nature-background_43379-1550.jpg');
+    display: flex;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+    font: bold calc(1em + 2 * (100vw - 120px) / 100) 'Dancing Script', fantasy;
+    color: #ff0083;
+    text-shadow: #000 2px 2px 0.2rem;
+}
+hr {
+    border: 2px solid #f7e140;
+}
+.news {
+    background-color: rgb(227, 149, 218);
+    padding: 2em;
+    border: solid thin #f7e140;
+}
+
+menu {
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    margin-bottom: 0;
+    gap: 1em;
+}

@@ -1,0 +1,184 @@
+.a {
+    font-size: 20px;
+    position: relative;
+    top: 10px;
+    left: 5px;
+}
+.b {
+    position: relative;
+    left: 135px;
+    bottom: 29px;
+    font-weight: bold;
+}
+.c {
+    position: relative;
+    left: 218px;
+    bottom: 62px;
+    color: rgb(80, 159, 249);
+    font-size: 11px;
+}
+.d {
+    font-size: 21px;
+    position: relative;
+    left: 350px;
+    bottom: 83px;
+}
+.e {
+    font-size: 20px;
+    position: relative;
+    left: 391px;
+    bottom: 111px;
+}
+.f {
+    font-size: 6px;
+    position: relative;
+    left: 221px;
+    bottom: 128px;
+    color: white;
+}
+
+.a1 {
+    position: relative;
+    bottom: 100px;
+    left: 5px;
+}
+.b1 {
+    position: relative;
+    bottom: 189px;
+    left: 10px;
+}
+.num {
+    position: relative;
+    bottom: 275px;
+    left: 150px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 220px;
+}
+.let {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    bottom: 305px;
+    left: 145px;
+    font-size: 13px;
+    width: 230px;
+    font-weight: 549.999967777;
+}
+.a2 {
+    font-weight: bold;
+    position: relative;
+    bottom: 294px;
+    left: 8px;
+    font-size: 14px;
+}
+.b2 {
+    position: relative;
+    bottom: 308.5px;
+    left: 6px;
+    font-size: 15px;
+    color: rgb(0, 170, 255);
+}
+.c2 {
+    position: relative;
+    bottom: 320px;
+    left: 8px;
+}
+.d2 {
+    position: relative;
+    bottom: 357px;
+    left: 29px;
+    font-weight: 550;
+    font-size: 15px;
+}
+.e2 {
+    position: relative;
+    bottom: 360px;
+    left: 5px;
+}
+.f2 {
+    font-weight: 545;
+    position: relative;
+    bottom: 405px;
+    left: 58px;
+    font-size: 14.5px;
+}
+
+.box {
+    width: 180px;
+    height: 30px;
+    border-radius: 9px;
+    background-color: rgb(119, 136, 153, 0.142);
+    text-align: center;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 30px;
+}
+.boxes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 400px;
+    position: relative;
+    bottom: 400px;
+    left: 5px;
+}
+
+.box3 {
+    width: 30px;
+}
+.i1 {
+    position: relative;
+    bottom: 425px;
+    left: 380.5px;
+    font-size: 11px;
+}
+.i2 {
+    position: relative;
+    bottom: 443px;
+    left: 116px;
+    font-size: 9px;
+    font-weight: bolder;
+}
+.th {
+    position: relative;
+    bottom: 433px;
+    left: 53px;
+}
+.pic {
+    position: relative;
+    bottom: 435px;
+}
+
+.bottom_icons {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    bottom: 425px;
+    left: 32px;
+    justify-content: space-between;
+    font-size: 21px;
+    width: 267px;
+}
+.bo_ic_im {
+    position: relative;
+    bottom: 449px;
+    left: 356px;
+}
+.red_dot {
+    display: flex;
+    justify-content: space-between;
+    font-size: 4px;
+    width: 329px;
+    position: relative;
+    bottom: 448px;
+    left: 41.5px;
+}
+.outer_box {
+    width: 415px;
+    height: 817px;
+    border: 1px solid #000000;
+}

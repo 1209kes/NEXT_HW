@@ -1,0 +1,47 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE-egde" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" type="text/css" href="{% static 'detail.css' %}" />
+        <title>Document</title>
+    </head>
+    <body>
+        <div class="box">
+            <div class="topbox">
+                <div>
+                    <h2>할 일</h2>
+                    <hr />
+                    <p>{{ post.title }}</p>
+                </div>
+                <div>
+                    <h2>세부내용</h2>
+                    <hr />
+                    <p>{{ post.content }}</p>
+                </div>
+                <div>
+                    <h2>마감기한</h2>
+                    <hr />
+                    {% if post.deadline %}
+                    <p>{{ post.deadline }}</p>
+                    {% else %}
+                    <p>마감 기한이 설정되지 않았습니다.</p>
+                    {% endif %}
+                </div>
+            </div>
+            <div class="smallbox">
+                <div class="b1">
+                    <a href="{% url 'home' %}">홈으로</a>
+                </div>
+                <div class="b2">
+                    <a href="{% url 'update' post.pk %}">수정하기</a>
+                </div>
+                <div class="b3">
+                    <a href="{% url 'delete' post.pk %}">삭제하기</a>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

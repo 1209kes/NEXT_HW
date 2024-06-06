@@ -1,0 +1,31 @@
+{% extends 'base.html' %} {% block css %} {% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'list.css' %}?version=1.1" />
+{% endblock %} {% block content %}
+<hr />
+<h2>POST_LIST</h2>
+<hr />
+<ul>
+    {% for article in articles %}
+    <li><a href="{% url 'detail' article.id %}">{{ article.title }}</a></li>
+    {% endfor %}
+</ul>
+<a href="{% url 'new' %}">글 쓰러 가기</a>
+<hr />
+<h2>CATEGORY</h2>
+<hr />
+<div>
+    <a href="{% url 'hobby_category' %}">취미</a>
+    <p>취미 글 개수: {{ hobby_count }}</p>
+    <img src="{% static 'hobby.jpg' %}" alt="My hobby is reading" style="width: 300px" />
+</div>
+<div>
+    <a href="{% url 'food_category' %}">음식</a>
+    <p>음식 글 개수: {{ food_count }}</p>
+    <img src="{% static 'food.jpg' %}" alt="rice thief" style="width: 400px" />
+</div>
+<div>
+    <a href="{% url 'programming_category' %}">프로그래밍</a>
+    <p>프로그래밍 글 개수: {{ programming_count }}</p>
+    <img src="{% static 'programming.jpg' %}" alt="rock sissors paper" style="width: 300px" />
+    {% endblock %}
+</div>

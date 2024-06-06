@@ -1,0 +1,269 @@
+body {
+    font-family: 'Gothic A1', sans-serif;
+}
+.outer_box {
+    width: 355px;
+    height: 850px;
+    border: 1px solid rgba(211, 211, 211, 0.24);
+    background-color: rgba(211, 211, 211, 0.24);
+}
+.a {
+    position: relative;
+    left: 18px;
+    font-weight: bolder;
+}
+.top {
+    width: 55px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    left: 290px;
+    bottom: 37px;
+    font-size: 13px;
+    font-weight: bold;
+}
+.A {
+    position: relative;
+    left: 10px;
+    bottom: 10px;
+}
+
+.B {
+    position: relative;
+    left: 44px;
+    font-size: 30px;
+    font-weight: bolder;
+    bottom: 80px;
+    color: rgb(188, 187, 187);
+}
+.C {
+    position: relative;
+    left: 283px;
+    bottom: 143px;
+}
+.D {
+    font-size: 25px;
+    color: rgb(188, 187, 187);
+    position: relative;
+    left: 325px;
+    bottom: 176px;
+}
+.E {
+    color: red;
+    font-size: 6px;
+    position: relative;
+    left: 344px;
+    bottom: 212px;
+}
+.box {
+    background-color: white;
+    border-radius: 25px;
+    width: 337px;
+    position: relative;
+    left: 8px;
+}
+.box1 {
+    height: 70px;
+    bottom: 168px;
+}
+.aa {
+    position: absolute;
+    left: 40px;
+    top: 117px;
+    font-size: 17px;
+    font-weight: bolder;
+}
+.bb {
+    position: absolute;
+    left: 320px;
+    top: 137px;
+    color: rgb(188, 187, 187);
+    font-size: 12px;
+}
+.box2 {
+    height: 375px;
+    bottom: 160px;
+}
+.Aa {
+    position: absolute;
+    left: 5%;
+    top: 6%;
+}
+.let {
+    position: absolute;
+    left: 20%;
+    top: 4%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    font-size: 11px;
+    font-weight: 600;
+    color: rgba(116, 116, 116, 0.836);
+    height: 280px;
+}
+.pr {
+    position: absolute;
+    left: 20%;
+    top: 7%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    font-size: 14px;
+    color: black;
+    height: 297px;
+    font-weight: bold;
+}
+.watch {
+    width: 210px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 88%;
+    left: 17%;
+    font-size: 13px;
+    color: rgba(98, 97, 117, 0.778);
+    font-weight: bold;
+}
+.box3 {
+    height: 220px;
+    width: 55px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    position: relative;
+    bottom: 510px;
+    left: 270px;
+}
+
+.box_ {
+    width: 50px;
+    height: 30px;
+    border-radius: 7px;
+    background-color: rgba(211, 211, 211, 0.24);
+    font-size: 12px;
+    font-weight: bold;
+    color: rgb(98, 97, 117);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.b3 {
+    width: 70px;
+}
+hr {
+    border-color: rgba(88, 88, 88, 0.053);
+}
+.horizon hr {
+    position: relative;
+    left: -1px;
+    bottom: 440px;
+}
+.box4 {
+    height: 84px;
+    position: relative;
+    bottom: 390px;
+    left: 2%;
+}
+.img {
+    position: absolute;
+    left: 6%;
+    top: 25%;
+}
+.third1 {
+    position: absolute;
+    left: 20%;
+    top: 18%;
+}
+.third2 {
+    position: absolute;
+    left: 20%;
+    top: 35%;
+}
+.box5 {
+    position: absolute;
+    left: 78%;
+    top: 33%;
+}
+.box6 {
+    height: 53px;
+    position: relative;
+    left: 7px;
+    bottom: 380px;
+}
+.letter {
+    height: 53px;
+    width: 280px;
+    font-size: 14px;
+    color: rgba(98, 97, 117, 0.778);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    left: 8%;
+    top: 2%;
+}
+.v-line {
+    border-left: 2px solid rgba(88, 88, 88, 0.132);
+    height: 20px;
+}
+.vertical {
+    width: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    left: 125px;
+    bottom: 415px;
+}
+.box7 {
+    height: 150px;
+    position: relative;
+    left: 7px;
+    bottom: 390px;
+}
+.day {
+    position: absolute;
+    left: 6%;
+    top: 6%;
+    font-size: 13px;
+    color: rgba(98, 97, 117, 0.778);
+}
+.box8 {
+    background-color: white;
+    border-radius: 25px;
+    width: 355px;
+    position: relative;
+    bottom: 490px;
+    height: 100px;
+    border: 1px solid rgba(211, 211, 211, 0.24);
+    color: rgba(83, 96, 118, 0.527);
+}
+.icons {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    font-size: 20px;
+    position: relative;
+    left: 23px;
+    top: 20px;
+}
+.lett {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 293px;
+    position: relative;
+    left: 30px;
+    top: 13px;
+    font-size: 9px;
+}
+hr {
+    position: relative;
+    bottom: 504px;
+    border-radius: 4px;
+}

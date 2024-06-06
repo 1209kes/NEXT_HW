@@ -1,0 +1,59 @@
+body {
+    background-color: rgba(211, 211, 211, 0.429);
+    font-family: 'Cafe24Oneprettynight', sans-serif;
+}
+.title {
+    position: relative;
+    left: 4%;
+}
+.box {
+    position: relative;
+    width: 300px;
+    height: auto; /* 자동 높이 설정 */
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    font: 1.2em;
+    line-height: 1.5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+@font-face {
+    font-family: 'Cafe24Oneprettynight';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.1/Cafe24Oneprettynight.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.b1 {
+    background-color: aliceblue;
+    border: 2px solid rgba(211, 211, 211, 0.429);
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.b2 {
+    background-color: aliceblue;
+    border: 2px solid rgba(211, 211, 211, 0.429);
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.b3 {
+    background-color: aliceblue;
+    border: 2px solid rgba(211, 211, 211, 0.429);
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.b4 {
+    position: absolute;
+    left: 35%;
+    bottom: -40px;
+}
