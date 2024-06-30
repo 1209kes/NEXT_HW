@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+
+.message {
+    text-align: center;
+    font-size: 28px;
+    font-family: 'Nanum Gothic', sans-serif;
+    margin-top: 30px;
+}

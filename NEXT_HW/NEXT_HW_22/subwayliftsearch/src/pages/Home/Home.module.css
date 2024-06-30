@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+
+.background {
+    width: 100%;
+    height: 100vh; /* 화면의 높이에서 .top의 높이를 뺀 만큼 */
+    font-family: 'Nanum Gothic', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.main {
+    position: absolute;
+    top: 30%;
+    width: 80%;
+    max-width: 800px;
+    padding: 40px;
+    border: 5px outset;
+    border-radius: 15px; /* 박스 rounding */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #007bff16;
+}
+
+.line,
+.station {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 1.7em;
+    color: #595656;
+}
+
+label {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+select {
+    width: 70%;
+    font-size: 0.9em;
+
+}
+
+.button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007bff; /* 버튼 색깔 */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2em;
+
+}
+
+.button:hover {
+    background-color: #0056b3; /* 호버 시 버튼 색깔 */
+}
